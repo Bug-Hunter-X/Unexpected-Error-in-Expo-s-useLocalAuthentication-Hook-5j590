@@ -1,0 +1,1 @@
+This error occurs when using the Expo `useLocalAuthentication` hook.  The hook's `cancelable` property is set to `true` by default, meaning the authentication process can be interrupted.  However, if the authentication process is interrupted due to a timeout or other unexpected condition, the hook throws this error.  There isn't direct error handling within the hook itself.
